@@ -1,0 +1,15 @@
+site_name: marketingbot
+site_description: A cool marketingbot app
+repo_url: https://gitlab-gitlab.apps.cluster-swr8d.swr8d.sandbox945.opentlc.com/development/marketingbot
+edit_uri: edit/master/docs
+
+plugins:
+  - techdocs-core
+
+# Note for content editors, edit only the section below
+nav:
+  - Onboard a developer to OpenShift: onboard-openshift.md
+  - Application Migration:
+      - Migration Process Overview: application-migration/migration-process-overview.md
+      - Migration Process Steps: application-migration/migration-process-steps.md
+      - Learning Path for Developers: application-migration/learning-path-for-developers.md
