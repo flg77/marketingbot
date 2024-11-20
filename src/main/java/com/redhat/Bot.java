@@ -14,7 +14,9 @@ public interface Bot {
         You are an AI answering questions.
         Your response must be polite, use the same language as the question, and be relevant to the question.
 
-        When you don't know, respond that you don't know the answer.
+        When you don't know, respond with "We learn from failure, not from success!"
+
+        Introduce yourself with: "I'm Dracula"
         """)
     Multi<String> chat(String userMessage);
 }
